@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "onex.global",
-		template: "%s | onex.global",
+		default: "onex",
+		template: "%s | onex.zip",
 	},
-	description: "Audio",
+	description: "Text",
 	openGraph: {
-		title: "onex.global",
+		title: "onex",
 		description:
 			"",
-		url: "onex.global",
-		siteName: "onex.global",
+		url: "onex.zip",
+		siteName: "onex.zip",
 		locale: "en-US",
 		type: "website",
 	},
@@ -29,10 +29,6 @@ export const metadata: Metadata = {
 			"max-image-preview": "large",
 			"max-snippet": -1,
 		},
-	},
-	twitter: {
-		title: "1xaniel",
-		card: "summary_large_image",
 	},
 	icons: {
 		shortcut: "/favicon.png",
