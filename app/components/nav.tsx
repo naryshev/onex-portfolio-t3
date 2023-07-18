@@ -47,13 +47,22 @@ export const Navigation: React.FC = () => {
 							Booking
 						</Link>
 					</div>
-
-					<Link
-						href="/"
-						className="duration-200 text-zinc-300 hover:text-zinc-100"
-					>
-						<ArrowLeft className="w-6 h-6 " />
-					</Link>
+					<div className="flex justify-between items-center space-x-4">
+						
+						<Link
+							href="/"
+							className="duration-200 text-zinc-300 hover:text-zinc-100"
+						>
+							<ArrowLeft className="w-6 h-6 " />
+						</Link>
+						<Link
+							href="/"
+							className="h2word"
+						>
+							<span className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-6	">1X</span>
+						</Link>
+					</div>
+					
 				</div>
 			</div>
 		</header>
