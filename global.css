@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'dap';
+  src: url('public/fonts/dap-webfont.woff') format('woff2'),
+       url('public/fonts/dap-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@layer base {
+  .text-edge-outline {
+    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+  }
+} 
+
+
+
+.h1word{
+  font-family: 'dap';
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 0.26 em;
+  width: 100%;
+  text-align: center;
+  line-height: 1em;
+}
