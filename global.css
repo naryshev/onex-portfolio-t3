@@ -22,11 +22,10 @@
 .h1word{
   font-family: 'dap';
   font-size: 4em;
-  text-transform: uppercase;
-  letter-spacing: 0.26 em;
   width: 100%;
+  height: auto;
   text-align: center;
-  line-height: 1em;
+  
 }
 
 .h2word{

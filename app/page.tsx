@@ -31,7 +31,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="h1word z-10 text-4xl text-transparent duration-1000 bg-white cursor-default animate-title sm:text-6xl md:text-9xl  bg-clip-text ">
+			<h1 className="h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text ">
 				<Link href={"/store"}><span className="hover:text-fuchsia-300 duration-500 text-fuchsia-500">1X</span></Link>RECORDS
 			</h1>
 
