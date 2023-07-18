@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://onex-portfolio-t3.vercel.app"><h1 align="center">1X Records</h1></a>
+    <a href="https://onex.zip"><h1 align="center">1X Records</h1></a>
     
 Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
 
