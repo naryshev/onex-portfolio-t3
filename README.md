@@ -1,7 +1,7 @@
 <div align="center">
-    <a href="https://chronark.com"><h1 align="center">1X Records</h1></a>
+    <a href="https://onex-portfolio-t3.vercel.app"><h1 align="center">1X Records</h1></a>
     
-Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
+Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
 
 </div>
 
@@ -11,12 +11,12 @@ Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.co
 
 
 ```sh-session
-git clone https://github.com/chronark/chronark.com.git
-cd chronark.com
+git clone https://github.com/danielnaryshev/onex-portfolio-t3.git
+cd onex-portfolio-t3
 ```
 
 
-Create a `.env` file similar to [`.env.example`](https://github.com/chronark/chronark.com/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/.env.example).
 
 Then install dependencies and run the development server:
 ```sh-session

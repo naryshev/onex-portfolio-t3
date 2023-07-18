@@ -11,18 +11,11 @@ export const metadata: Metadata = {
 	},
 	description: "Audio",
 	openGraph: {
-		title: "chronark.com",
+		title: "onex.global",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
-		images: [
-			{
-				url: "https://chronark.com/og.png",
-				width: 1920,
-				height: 1080,
-			},
-		],
+			"",
+		url: "onex.global",
+		siteName: "onex.global",
 		locale: "en-US",
 		type: "website",
 	},
@@ -38,7 +31,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "1xaniel",
 		card: "summary_large_image",
 	},
 	icons: {
