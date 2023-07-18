@@ -32,7 +32,7 @@ export default function Home() {
 				quantity={100}
 			/>
 			<h1 className="h1word z-10 text-4xl text-transparent duration-1000 bg-white cursor-default animate-title sm:text-6xl md:text-9xl  bg-clip-text ">
-				<Link href={"/store"}><span className="hover:text-fuchsia-300 text-fuchsia-500">1X</span></Link>RECORDS
+				<Link href={"/store"}><span className="hover:text-fuchsia-300 duration-500 text-fuchsia-500">1X</span></Link>RECORDS
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
