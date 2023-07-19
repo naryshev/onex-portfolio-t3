@@ -7,15 +7,15 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "onex",
-		template: "%s | onex.zip",
+		template: "%s | onex",
 	},
 	description: "Text",
 	openGraph: {
 		title: "onex",
 		description:
-			"",
+			"OneX Global",
 		url: "onex.zip",
-		siteName: "onex.zip",
+		siteName: "onex",
 		locale: "en-US",
 		type: "website",
 	},
