@@ -2,7 +2,8 @@ import "../global.css";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+import { Analytics } from '@vercel/analytics/react';
+
 
 export const metadata: Metadata = {
 	title: {
@@ -16,6 +17,13 @@ export const metadata: Metadata = {
 			"OneX Global",
 		url: "onex.zip",
 		siteName: "onex",
+		images: [
+			{
+				url: "https://onex.zip/og.png",
+				width: 1920,
+				height: 1080,
+			},
+		],
 		locale: "en-US",
 		type: "website",
 	},
