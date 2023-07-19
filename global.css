@@ -24,6 +24,7 @@
   font-size: 4em;
   width: 100%;
   height: auto;
+  text-transform: capitalize;
   text-align: center;
   
 }
