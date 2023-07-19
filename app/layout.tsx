@@ -6,6 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://onex.zip'),
 	title: {
 		default: "onex",
 		template: "%s | onex",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
 		siteName: "onex",
 		images: [
 			{
-				url: "https://onex.zip/og.png",
+				url: "/og.png",
 				width: 1920,
 				height: 1080,
 			},
