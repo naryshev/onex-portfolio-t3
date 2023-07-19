@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 	},
 	description: "Text",
 	openGraph: {
-		title: "onex",
+		title: "1X",
 		description:
 			"OneX Global",
 		url: "onex.zip",
