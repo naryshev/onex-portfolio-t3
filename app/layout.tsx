@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 		title: "1X",
 		description:
 			"OneX Global",
-		url: "onex.zip",
+		
 		siteName: "onex",
 		images: [
 			{
