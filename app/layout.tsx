@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "1X",
 		description:
-			"OneX Global",
+			"ONEX Records",
 		
 		siteName: "onex",
 		images: [
