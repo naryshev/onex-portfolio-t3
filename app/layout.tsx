@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	},
 	description: "Text",
 	openGraph: {
-		title: "1X",
+		title: "ONEX RECORDS",
 		description:
 			"ONEX Records",
 		
