@@ -8,8 +8,8 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata: Metadata = {
 	metadataBase: new URL('https://onex.zip'),
 	title: {
-		default: "onex",
-		template: "%s | onex",
+		default: "ONEX RECORDS",
+		template: "%s | ONEX RECORDS",
 	},
 	description: "Text",
 	openGraph: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 		description:
 			"ONEX Records",
 		
-		siteName: "onex",
+		siteName: "ONEX RECORDS",
 		images: [
 			{
 				url: "/og.png",
