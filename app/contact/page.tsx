@@ -1,5 +1,5 @@
 "use client";
-import { Youtube, Mail, Twitter } from "lucide-react";
+import { Youtube, Mail, Twitter, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -13,19 +13,20 @@ const socials = [
 		handle: "@1xaniel",
 	},
 	{
+		id: 3,
+		icon: <Instagram size={80} />,
+		href: "https://twitter.com/onex.zip",
+		label: "Instagram",
+		handle: "@onex.zip",
+	},
+	{
 		id: 2,
 		icon: <Youtube size={80} />,
 		href: "https://www.youtube.com/@1xaniel",
 		label: "Youtube",
 		handle: "@1xaniel",
 	},
-	{
-		id: 3,
-		icon: <Mail size={80} />,
-		href: "mailto:chefxaniel@gmail.com",
-		label: "Email",
-		handle: "chefxaniel@gmail.com",
-	},
+
 ];
 
 export default function Example() {
