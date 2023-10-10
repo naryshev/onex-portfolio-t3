@@ -32,7 +32,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text   ">
+			<h1 id="ONEX RECORDS" className="h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text   ">
 				<Link className="text-fuchsia-500 hover:text-fuchsia-300 "href={"/store"}>1X</Link>RECORDS
 			</h1>
 
@@ -46,23 +46,14 @@ export default function Home() {
 					Based in LA
 
 				</h2>
-			<footer className="">
-				<div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-					
-
-				<hr className="my-6 sm:mx-auto lg:my-8" />
-				<div className="sm:flex sm:items-center sm:justify-between">
-					<span className="text-sm text-zinc-500 sm:text-center">© 2023 <a href="https://onex.zip/" className="hover:underline">ONEX Records™</a>. All Rights Reserved.
-					</span>
-					
-				</div>
-            </div>
-        </footer>
-				
+			
 			</div>
 			
-			{/* <Footer/> */}
+			<nav className="my-16 animate-fade-in text-xs">
+				<Footer/>
+			</nav>
 		</div>
+		
 		
 	);
 }
