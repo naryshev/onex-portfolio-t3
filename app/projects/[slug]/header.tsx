@@ -18,12 +18,6 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 	const [isIntersecting, setIntersecting] = useState(true);
 
 	const links: { label: string; href: string }[] = [];
-	if (project.repository) {
-		links.push({
-			label: "GitHub",
-			href: `https://github.com/${project.repository}`,
-		});
-	}
 	// if (project.url != null) {
 	// 	links.push({
 	// 		label: "Website",
