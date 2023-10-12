@@ -37,7 +37,7 @@ export default function Example() {
 			
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto py-28 ">
 				<div className="grid w-full text-zinc-400">
-					<h1 className="text-xl font-bold hover:uppercasetransition ease-in-out delay-150 hover:scale-110 hover:duration-300 ">Unlike Any Other Engineer...</h1>
+					<h1 className="text-xl font-bold ">Unlike Any Other Engineer...</h1>
 					<br></br>
 					<h3 className="text-base/loose">Meet Xaniel, a self-taught audio engineer and proud Los Angeles native, dedicated to shaping your sound and bringing your musical vision to life.</h3>
 					<br></br>

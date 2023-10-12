@@ -20,7 +20,7 @@ export default function Home() {
 						<Link
 							key={item.href}
 							href={item.href}
-							className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+							className="text-base duration-500 text-zinc-500 hover:text-zinc-300"
 						>
 							{item.name}
 						</Link>
@@ -32,8 +32,8 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 id="ONEX RECORDS" className="h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text   ">
-				<Link className="text-fuchsia-500 hover:text-fuchsia-300 "href={"/store"}>1X</Link>RECORDS
+			<h1 id="ONEX RECORDS" className=" h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text   ">
+				<Link className="transition delay-350 text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-300 "href={"/store"}>1X</Link>RECORDS
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
