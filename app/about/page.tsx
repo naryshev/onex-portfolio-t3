@@ -39,7 +39,7 @@ export default function Example() {
 				<div className="grid w-full text-zinc-400">
 					<h1 className="text-xl font-bold ">Unlike Any Other Engineer...</h1>
 					<br></br>
-					<h3 className="text-base/loose">Meet Xaniel, a self-taught audio engineer and proud Los Angeles native, dedicated to shaping your sound and bringing your musical vision to life.</h3>
+					<h3 className="text-base/loose">Meet Xaniel, a self-taught audio engineer dedicated to shaping your sound and bringing your musical vision to life.</h3>
 					<br></br>
 					<h3 className="text-base/loose">Born and raised amidst the vibrant music scene of Los Angeles, Xaniel developed an early fascination with sound taking trumpet and piano lessons from his grandparents at a young age. As a teenager he made the bold decision to put down his instruments to explore the world of choir and vocal performance. Fueled by his passion for sound, he explored the limitless potential of vocals, adding depth and versatility to his musical repertoire. In college, he studied music history and theory to enhance his understanding of the underlying principles of music. With his diverse skillset he crafts compositions that are not only innovative but also rooted in a profound appreciation for the art form. </h3>
 					<br></br>
