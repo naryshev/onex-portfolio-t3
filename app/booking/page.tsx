@@ -1,4 +1,5 @@
 "use client";
+import { Footer } from "../components/footer";
 import { Navigation } from "../components/nav";
 import Cal from "@calcom/embed-react";
 
@@ -9,11 +10,12 @@ export default function Example() {
 			<Navigation />
 			<div className=" flex flex-col w-full items-center justify-center min-h-screen ">
 				<div className="my-20 w-full">
-            <MyComponent />
+          <MyComponent />
 
-          </div>
-				</div>
-			</div>
+        </div>
+      </div>
+    <Footer />
+    </div>
 	);
 }
 

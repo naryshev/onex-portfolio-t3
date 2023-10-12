@@ -3,6 +3,7 @@ import { Youtube, Mail, Twitter, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import {Footer} from "../components/footer";
 
 const socials = [
 	{
@@ -34,7 +35,7 @@ export default function Example() {
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
 			
-			<div className="container flex items-center justify-center min-h-screen px-4 scroll-smooth mx-auto pt-28 ">
+			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto py-28 ">
 				<div className="grid w-full text-zinc-400">
 					<h1 className="text-xl font-bold hover:uppercasetransition ease-in-out delay-150 hover:scale-110 hover:duration-300 ">Unlike Any Other Engineer...</h1>
 					<br></br>
@@ -85,6 +86,7 @@ export default function Example() {
 					))}
 				</div> */}
 			</div>
+			<Footer/>
 		</div>
 	);
 }

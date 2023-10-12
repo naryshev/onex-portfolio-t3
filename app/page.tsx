@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import Footer from "./components/footer";
+import {Footer} from "./components/footer";
 
 const navigation = [
 	{ name: "Credits", href: "/projects" },
