@@ -4,10 +4,10 @@ import Particles from "./components/particles";
 import Footer from "./components/footer";
 
 const navigation = [
-	{ name: "Projects", href: "/projects" },
+	{ name: "Credits", href: "/projects" },
 	// { name: "Store", href: "/store" },
 	{ name: "Booking", href: "/booking" },
-	{ name: "Contact", href: "/contact" },
+	{ name: "About", href: "/about" },
 	
 ];
 

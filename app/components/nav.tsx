@@ -32,7 +32,7 @@ export const Navigation: React.FC = () => {
 							href="/projects"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Projects
+							Credits
 						</Link>
 						<Link
 							href="/booking"
@@ -41,10 +41,10 @@ export const Navigation: React.FC = () => {
 							Booking
 						</Link>
 						<Link
-							href="/contact"
+							href="/about"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Contact
+							About
 						</Link>
 					</div>
 					<div className="flex justify-between items-center space-x-4">
