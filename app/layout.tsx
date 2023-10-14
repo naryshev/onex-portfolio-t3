@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from '@vercel/analytics/react';
+import GoogleAnalytics from "./components/GoogleAnalytics";
+
 
 
 export const metadata: Metadata = {
@@ -63,12 +65,18 @@ export default function RootLayout({
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<head>
 				<Analytics />
+				{/* <GoogleAnalytics /> */}
+							
 			</head>
 			<body
 				className={`bg-black ${
 					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
 				}`}
 			>
+				{process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
+					<GoogleAnalytics ga_id= 
+					{process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+				) : null}
 				{children}
 			</body>
 		</html>
