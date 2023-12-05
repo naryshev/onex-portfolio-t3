@@ -30,7 +30,7 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
-				quantity={100}
+				quantity={50}
 			/>
 			<h1 id="ONEX RECORDS" className=" h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text   ">
 				<Link className="transition delay-350 text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-300 "href={"/store"}>1X</Link>RECORDS
