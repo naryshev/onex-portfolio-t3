@@ -101,6 +101,29 @@ module.exports = {
 						opacity: "100%",
 					},
 				},
+				bouncer: {
+					"0%": {
+						transform: "translateY(0%)"
+					},
+					"20%": {
+						transform: "translateY(0%)"
+					}, 
+					"50%": {
+						transform: "translateY(0%)"
+					},
+					 "80%": {
+						transform: "translateY(0%)"
+					},
+					 "100%": {
+						transform: "translateY(0%)"
+					},
+					"40%": {
+					  transform: "translateY(-20px)"
+					},
+					"60%": {
+					  transform: "translateY(-10px)"
+					},
+				},
 			},
 		},
 	},
