@@ -171,7 +171,7 @@ export default function AudioPlayer({
        
       </div>
       
-      <div className="grid grid-cols-3 items-center rounded-t-xl  pb-6 sm:p-10 sm:pb-8 lg:p-6 xl:p-10 xl:pb-8 space-y-6 ">
+      <div className="grid grid-cols-3 items-center rounded-t-xl  pb-6 sm:p-4 sm:pb-2 lg:p-6 xl:p-10 xl:pb-8 space-y-6 ">
         <span></span>
         <div className="flex items-center gap-4 justify-self-center ">
           <IconButton
@@ -206,7 +206,7 @@ export default function AudioPlayer({
           </IconButton>
         </div>
 
-        <div className="flex gap-3 items-center justify-self-end">
+        <div className="flex gap-3 items-center justify-self-end ">
           <IconButton
             intent="secondary"
             size="sm"
