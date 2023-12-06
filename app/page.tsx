@@ -49,9 +49,9 @@ export default function Home() {
 			
 			</div>
 			
-			<nav className="my-16 animate-fade-in text-xs">
+			{/* <nav className="my-16 animate-fade-in text-xs">
 				<Footer/>
-			</nav>
+			</nav> */}
 		</div>
 		
 		
