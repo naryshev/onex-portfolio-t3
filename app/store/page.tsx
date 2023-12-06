@@ -16,7 +16,7 @@ export default function Store() {
     //         </div>
     //     </div>
     // </div>
-    <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+    <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 px-3">
         <Navigation />
         
         <div className="">

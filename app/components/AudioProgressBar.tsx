@@ -24,11 +24,11 @@ interface ProgressCSSProps extends React.CSSProperties {
     };
   
     return (
-      <div className="absolute h-2 -top-[4px] left-6 right-6 group rounded-xl  ">
+      <div className="absolute h-2 -top-[4px] left-6 right-6 rounded-xl ">
         <input
           type="range"
           name="progress"
-          className={`progress-bar absolute inset-0 w-full m-0 mr-5 h-full bg-transparent appearance-none cursor-pointer dark:bg-gray-700 group-hover:h-2 transition-all accent-fuchsia-600 hover:accent-fuchsia-600 before:absolute before:inset-0 before:h-full before:w-full before:bg-fuchsia-600 before:origin-left after:absolute after:h-full after:w-full after:bg-fuchsia-600/50`}
+          className={`progress-bar absolute inset-0  m-0  h-full bg-transparent cursor-pointer dark:bg-gray-700 group-hover:h-2 transition-all accent-fuchsia-600 hover:accent-fuchsia-600 before:absolute before:inset-0 before:h-full before:w-full before:bg-fuchsia-600 before:origin-left before:rounded-xl after:absolute after:h-full after:w-full after:bg-fuchsia-600/50 after:rounded-xl`}
           style={progressStyles}
           min={0}
           max={duration}
