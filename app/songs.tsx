@@ -1,12 +1,12 @@
 export const songs = [{
-    title: 'Scouts',
-    author: 'BredWinner$, BwOsama',
-    src: 'https://res.cloudinary.com/dvrfrhqzs/video/upload/f_auto:video,q_auto/xuhor9d6gde81dexnghq',
+    title: 'Relapse',
+    author: '1X',
+    src: 'https://res.cloudinary.com/dvrfrhqzs/video/upload/f_auto:video,q_auto/fijqnihmhutizo687vvs',
   },
   {
-    title: 'Fuel',
-    author: 'Klon',
-    src: 'https://res.cloudinary.com/dvrfrhqzs/video/upload/f_auto:video,q_auto/mnmoz8uaobpxlyvbpy11',
+    title: 'Mysterious',
+    author: '1X',
+    src: 'https://res.cloudinary.com/dvrfrhqzs/video/upload/f_auto:video,q_auto/dblmwiufavf3qxnwunyz',
   },
   // {
   //   title: ,
