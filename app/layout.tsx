@@ -4,6 +4,7 @@ import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from '@vercel/analytics/react';
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import NextTopLoader from 'nextjs-toploader';
 
 
 
@@ -73,6 +74,7 @@ export default function RootLayout({
 					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
 				}`}
 			>
+				<NextTopLoader color="#D946EF" />
 				{process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
 					<GoogleAnalytics ga_id= 
 					{process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
