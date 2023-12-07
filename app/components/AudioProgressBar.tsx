@@ -24,7 +24,7 @@ interface ProgressCSSProps extends React.CSSProperties {
     };
   
     return (
-      <div className="absolute h-2 -top-[4px] left-6 right-6 rounded-xl ">
+      <div className="absolute h-2 -top-[4px] left-6 right-6 rounded-xl my-4 mb-10 ">
         <input
           type="range"
           name="progress"

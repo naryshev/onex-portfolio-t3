@@ -7,7 +7,11 @@ import { MdPlayArrow, MdPause } from 'react-icons/md';
 import AudioPlayer from '../AudioPlayer';
 import { songs } from '../songs';
 
-export const Player: React.FC = () => {
+interface PlayerProps {
+    onClose: () => void;
+  }
+
+export const Player: React.FC<PlayerProps> = ({onClose}) => {
     const [currentSongIndex, setCurrentSongIndex] = React.useState(-1);
 
     const currentSong = songs[currentSongIndex];
@@ -18,6 +22,7 @@ export const Player: React.FC = () => {
             <div className="">
                 <div className="flex flex-col h-full bg-zinc-900 text-zinc-300 rounded-xl ">
                     <div className="container mx-auto px-6 py-8 flex-1">
+                        
                         <ul>
                         {songs.map((song, index) => (
                             <li key={song.title} className="mb-1">
@@ -31,7 +36,7 @@ export const Player: React.FC = () => {
                             >
                                 {/* <span className="text-sm">
                                 {index + 1 < 10 ? '0' + (index + 1) : index + 1}
-                                </span> */}
+                                </span> */}s
                                 <span></span>
                                 <h2 className="flex-1">{song.author} - {song.title} </h2>
                                 <span>

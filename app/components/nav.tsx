@@ -2,20 +2,30 @@
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
+import Modal from './Modal';
 
 export const Navigation: React.FC = () => {
-	const ref = useRef<HTMLElement>(null);
-	const [isIntersecting, setIntersecting] = useState(true);
+  const ref = useRef<HTMLElement>(null);
+  const [isIntersecting, setIntersecting] = useState(true);
+  const [isModalOpen, setModalOpen] = useState(false);
 
-	useEffect(() => {
-		if (!ref.current) return;
-		const observer = new IntersectionObserver(([entry]) =>
-			setIntersecting(entry.isIntersecting),
-		);
+  useEffect(() => {
+    if (!ref.current) return;
+    const observer = new IntersectionObserver(([entry]) =>
+      setIntersecting(entry.isIntersecting),
+    );
 
-		observer.observe(ref.current);
-		return () => observer.disconnect();
-	}, []);
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const handleOpenModal = () => {
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
 
 	return (
 		<header ref={ref}>
@@ -41,12 +51,12 @@ export const Navigation: React.FC = () => {
 						>
 							Booking
 						</Link>
-						<Link
+						{/* <Link
 							href="/about"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							About
-						</Link>
+						</Link> */}
 					</div>
 					
 					<div className="flex justify-between items-center space-x-4 mt-4">
@@ -58,10 +68,10 @@ export const Navigation: React.FC = () => {
 							<ArrowLeft className="w-6 h-6 " />
 						</Link> */}
 						<Link
-							href="/store"
+							href=""
 							className="h2word"
 						>
-							<span className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>
+							<span onClick={handleOpenModal} className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>
 						</Link>
 						
 						
@@ -70,7 +80,7 @@ export const Navigation: React.FC = () => {
 				</div>
 
 			</div>
-			
+			{isModalOpen && <Modal onClose={handleCloseModal} />}
 		</header>
 		
 	);

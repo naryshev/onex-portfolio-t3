@@ -6,7 +6,28 @@ import { Player } from "../components/player";
 
 export default function Store() {
 	return (
-    // <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+   
+    <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 px-3">
+        <Navigation />
+        
+        <div className="">
+            
+        
+        {/* <Player /> */}
+
+            
+        </div>
+        
+        
+        
+        <Footer/>
+    </div>
+    
+	);
+}
+
+
+ // <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
     //     <Navigation />
     //     <div className=" flex flex-col w-full items-center justify-center min-h-screen ">
     //         <div className="my-20 w-full">
@@ -16,64 +37,11 @@ export default function Store() {
     //         </div>
     //     </div>
     // </div>
-    <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 px-3">
-        <Navigation />
-        
-        <div className="">
-            
-        
-        <Player />
-        
-        {/* <div id="title">
-                <span id="track"></span>
-                <div id="timer">0:00</div>
-                <div id="duration">0:00</div>
-            </div>
 
-            
-            <div className="controlsOuter">
-                <div className="controlsInner">
-                <div id="loading"></div>
-                <div className="btn" id="playBtn"></div>
-                <div className="btn" id="pauseBtn"></div>
-                <div className="btn" id="prevBtn"></div>
-                <div className="btn" id="nextBtn"></div>
-                </div>
-                <div className="btn" id="playlistBtn"></div>
-                <div className="btn" id="volumeBtn"></div>
-            </div>
-
-            <div id="waveform"></div>
-            <div id="bar"></div>
-            <div id="progress"></div>
-
-            <div id="playlist">
-                <div id="list"></div>
-            </div>
-
-            <div id="volume" className="fadeout">
-                <div id="barFull" className="bar"></div>
-                <div id="barEmpty" className="bar"></div>
-                <div id="sliderBtn"></div>
-            </div>
-
-            <script src="../../src/howler.core.js"></script>
-            <script src="./siriwave.js"></script>
-            <script src="./store/playerex.js"></script> */}
-
-            
-        </div>
-        
-        
-        {/* <div className=" flex flex-col w-full items-center justify-center min-h-screen ">
-             <div className="my-20 w-full">
-                <h1 className="h1word z-10 text-transparent duration-1000 bg-white cursor-default animate-title sm:text-6xl md:text-9xl  bg-clip-text">
-                    <span className=" text-9xl text-fuchsia-500  hover:text-fuchsia-300 duration-700 hover:animate-bouncer ">1X</span>
-                </h1>
-            </div>
-        </div> */}
-        <Footer/>
-    </div>
-    
-	);
-}
+    // {/* <div className=" flex flex-col w-full items-center justify-center min-h-screen ">
+    //          <div className="my-20 w-full">
+    //             <h1 className="h1word z-10 text-transparent duration-1000 bg-white cursor-default animate-title sm:text-6xl md:text-9xl  bg-clip-text">
+    //                 <span className=" text-9xl text-fuchsia-500  hover:text-fuchsia-300 duration-700 hover:animate-bouncer ">1X</span>
+    //             </h1>
+    //         </div>
+    //     </div> */}

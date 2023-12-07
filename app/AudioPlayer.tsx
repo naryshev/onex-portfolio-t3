@@ -118,7 +118,7 @@ export default function AudioPlayer({
 
   return (
     
-    <div className="bg-zinc-900 text-slate-400 p-3 relative rounded-xl ">
+    <div className="bg-zinc-900 text-slate-400 p-3 py-6 relative rounded-xl ">
       {currentSong && (
         <audio
           ref={audioRef}
@@ -154,7 +154,7 @@ export default function AudioPlayer({
         }}
       />
       
-        <div className="flex justify-between text-sm leading-6 pl-3.5 pr-4 font-medium tabular-nums">
+        <div className="flex justify-between text-sm leading-6 pl-3.5 pr-4 font-medium tabular-nums mt-3">
           <div className="text-zinc-500 dark:text-zinc-100"> {elapsedDisplay}</div>
           <div className="text-zinc-500 dark:text-zinc-400">{durationDisplay}</div>
         </div>
