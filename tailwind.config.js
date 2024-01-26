@@ -148,5 +148,6 @@ module.exports = {
 	plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
+		require('@tailwindcss/aspect-ratio'),
 	],
 };

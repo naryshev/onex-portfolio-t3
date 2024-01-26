@@ -71,7 +71,11 @@ export const Navigation: React.FC = () => {
 							href=""
 							className="h2word"
 						>
-							<span onClick={handleOpenModal} className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>
+							<span  className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>
+
+							{/* onClick={handleOpenModal}
+							Add this back for modal */}
+
 						</Link>
 						
 						
@@ -80,7 +84,7 @@ export const Navigation: React.FC = () => {
 				</div>
 
 			</div>
-			{isModalOpen && <Modal onClose={handleCloseModal} />}
+			{/* {isModalOpen && <Modal onClose={handleCloseModal} />} */}
 		</header>
 		
 	);

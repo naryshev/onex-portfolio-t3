@@ -21,9 +21,10 @@ export default async function ProjectsPage() {
 		return acc;
 	}, {} as Record<string, number>);
 
-	const featured = allProjects.find((project) => project.slug === "bredwinners-b-i-t-c")!;
-	const top2 = allProjects.find((project) => project.slug === "hyden-openerdrfresch")!;
-	const top3 = allProjects.find((project) => project.slug === "jaaynice-out-the-way")!;
+
+	const featured = allProjects.find((project) => project.slug === "jaaynice-hella-hoes")!;
+	const top2 = allProjects.find((project) => project.slug === "jaaynice-no-feelings")!;
+	const top3 = allProjects.find((project) => project.slug === "bredwinners-b-i-t-c")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
 		.filter(
