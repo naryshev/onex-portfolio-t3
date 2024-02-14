@@ -32,3 +32,7 @@
 .h2word{
   font-family: 'dap';
 }
+
+::-webkit-scrollbar {
+  display: none; /* display of the scrollbar */
+}

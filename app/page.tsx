@@ -31,20 +31,20 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
-				quantity={50}
+				quantity={100}
 			/>
-			<h1 id="ONEX RECORDS" className=" h1word z-10 text-3xl text-transparent duration-800 bg-white cursor-default animate-title sm:text-6xl align-middle md:text-9xl bg-clip-text   ">
-				<Link className="transition delay-350 text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-300 "href={"/store"}>1X</Link>RECORDS
+			<h1 id="ONEX RECORDS" className=" h1word z-10  text-transparent duration-300 bg-white cursor-default animate-title align-middle md:text-9xl bg-clip-text   ">
+				<Link className="text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400 "href={"/credits"}>1X</Link>
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Audio Engineering | Production
+					{/* Audio Engineering | Production */}
 					
 					<br />
 					<br />
-					Based in LA
+					Los Angeles
 
 				</h2>
 			

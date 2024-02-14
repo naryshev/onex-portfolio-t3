@@ -40,7 +40,7 @@ export const Navigation: React.FC = () => {
 				<div className="flex flex-row-reverse items-center justify-between p-4 md:p-6 mx-auto w-full">
 					<div className="flex justify-between space-x-4 mr-2 ">
 						<Link
-							href="/projects"
+							href="/credits"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Credits
