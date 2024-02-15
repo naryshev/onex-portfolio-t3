@@ -35,7 +35,7 @@ export default function Home() {
 				quantity={150}
 			/>
 
-				<h1 id="ONEX RECORDS" className="animate-bouncer h1word z-10  text-transparent duration-300 bg-white cursor-default align-middle md:text-9xl sm:text-6xl bg-clip-text pt-5  ">
+				<h1 id="ONEX RECORDS" className="animate-bouncer h1word z-10  text-transparent duration-300 bg-white cursor-default align-middle bg-clip-text pt-7  ">
 					<motion.div drag
 					whileHover={{ scale: 1.2 }}
 					dragConstraints={{
@@ -44,7 +44,7 @@ export default function Home() {
 						right: 250,
 						bottom: 250,}}
 					>
-						<Link className=" text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
+						<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
 					</motion.div>
 						
 				</h1>
