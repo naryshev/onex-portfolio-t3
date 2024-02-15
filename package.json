@@ -20,7 +20,7 @@
     "@vercel/og": "^0.5.18",
     "classnames": "^2.3.2",
     "contentlayer": "^0.3.4",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.18.0",
     "howler": "^2.2.4",
     "lucide-react": "^0.220.0",
     "markdown-wasm": "^1.2.0",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
 import {Footer} from "./components/footer";
+import {motion} from "framer-motion"
 
 const navigation = [
 	{ name: "Credits", href: "/credits" },
@@ -33,9 +34,20 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={150}
 			/>
-			<h1 id="ONEX RECORDS" className="animate-bouncer h1word z-10  text-transparent duration-300 bg-white cursor-default align-middle md:text-9xl sm:text-6xl bg-clip-text pt-5  ">
-				<Link className=" text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
-			</h1>
+
+				<h1 id="ONEX RECORDS" className="animate-bouncer h1word z-10  text-transparent duration-300 bg-white cursor-default align-middle md:text-9xl sm:text-6xl bg-clip-text pt-5  ">
+					<motion.div drag
+					whileHover={{ scale: 1.2 }}
+					dragConstraints={{
+						top: -250,
+						left: -250,
+						right: 250,
+						bottom: 250,}}
+					>
+						<Link className=" text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
+					</motion.div>
+						
+				</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
