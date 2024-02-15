@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
   font-family: 'dap';
   src: url('public/fonts/dap-webfont.woff') format('woff2'),
@@ -20,18 +22,18 @@
 
 
 *{
-    cursor: url(app/src/1Xpng.png), auto;
+    cursor: url(../app/src/1Xpng.png), auto;
 }
 .custom-cursor:link {
-  cursor: url(app/src/1Xpng.png), auto;
+  cursor: url(../app/src/1Xpng.png), auto;
 }
 
 .custom-cursor:hover {
-  cursor: url(app/src/1Xpng.png), auto;
+  cursor: url(../app/src/1Xpng.png), auto;
 }
 
 .custom-cursor:active {
-  cursor: url(app/src/1Xpng.png), auto;
+  cursor: url(../app/src/1Xpng.png), auto;
 }
 
 .h1word{
