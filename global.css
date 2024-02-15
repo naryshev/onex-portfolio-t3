@@ -19,6 +19,21 @@
 
 
 
+*{
+    cursor: url(app/src/1Xpng.png), auto;
+}
+.custom-cursor:link {
+  cursor: url(app/src/1Xpng.png), auto;
+}
+
+.custom-cursor:hover {
+  cursor: url(app/src/1Xpng.png), auto;
+}
+
+.custom-cursor:active {
+  cursor: url(app/src/1Xpng.png), auto;
+}
+
 .h1word{
   font-family: 'dap';
   font-size: 4em;

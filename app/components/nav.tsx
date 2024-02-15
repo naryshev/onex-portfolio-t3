@@ -68,7 +68,7 @@ export const Navigation: React.FC = () => {
 							<ArrowLeft className="w-6 h-6 " />
 						</Link> */}
 						<Link
-							href=""
+							href="/"
 							className="h2word"
 						>
 							<span  className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>

@@ -28,6 +28,10 @@ module.exports = {
 					},
 				},
 			},
+			cursor: {
+				default: "url(app/src/1Xpng.png), default",
+				pointer: "url(app/src/1Xpng.png), pointer",
+			},
 			fontFamily: {
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				display: ["var(--font-calsans)"],
@@ -37,7 +41,7 @@ module.exports = {
 					"radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
 			},
 			animation: {
-				"fade-in": "fade-in 3s ease-in-out forwards",
+				"fade-in": "fade-in 1s ease-in-out forwards",
 				"fade-in-player": "fade-in 1s ease-in-out forwards",
 				title: "title 3s ease-out forwards",
 				"fade-left": "fade-left 3s ease-in-out forwards",
@@ -49,7 +53,7 @@ module.exports = {
 						opacity: "0%",
 					},
 					"75%": {
-						opacity: "0%",
+						opacity: "80%",
 					},
 					"100%": {
 						opacity: "100%",

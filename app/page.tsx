@@ -5,7 +5,7 @@ import Particles from "./components/particles";
 import {Footer} from "./components/footer";
 
 const navigation = [
-	{ name: "Credits", href: "/projects" },
+	{ name: "Credits", href: "/credits" },
 	// { name: "Store", href: "/store" },
 	{ name: "Booking", href: "/booking" },
 	// { name: "About", href: "/about" },
@@ -31,10 +31,10 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
-				quantity={100}
+				quantity={150}
 			/>
-			<h1 id="ONEX RECORDS" className=" h1word z-10  text-transparent duration-300 bg-white cursor-default animate-title align-middle md:text-9xl bg-clip-text   ">
-				<Link className="text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400 "href={"/credits"}>1X</Link>
+			<h1 id="ONEX RECORDS" className="animate-bouncer h1word z-10  text-transparent duration-300 bg-white cursor-default align-middle md:text-9xl sm:text-6xl bg-clip-text pt-5  ">
+				<Link className=" text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
@@ -42,8 +42,7 @@ export default function Home() {
 				<h2 className="text-sm text-zinc-500 ">
 					{/* Audio Engineering | Production */}
 					
-					<br />
-					<br />
+
 					Los Angeles
 
 				</h2>
