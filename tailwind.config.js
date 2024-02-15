@@ -28,10 +28,7 @@ module.exports = {
 					},
 				},
 			},
-			cursor: {
-				default: "url(app/src/1Xpng.png), default",
-				pointer: "url(app/src/1Xpng.png), pointer",
-			},
+			
 			fontFamily: {
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				display: ["var(--font-calsans)"],
