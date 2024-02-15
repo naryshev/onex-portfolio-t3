@@ -28,7 +28,10 @@ module.exports = {
 					},
 				},
 			},
-			
+			cursor: {
+				default: "url(https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/app/src/1xpng.png?raw=true), default",
+				pointer: "url(https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/app/src/1xpng.png?raw=true), pointer",
+			},
 			fontFamily: {
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				display: ["var(--font-calsans)"],
