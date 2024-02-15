@@ -40,8 +40,8 @@ export default function Home() {
 					whileHover={{ scale: 1.2 }}
 					dragConstraints={{
 						top: -250,
-						left: -250,
-						right: 250,
+						left: -50,
+						right: 50,
 						bottom: 250,}}
 					>
 						<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
