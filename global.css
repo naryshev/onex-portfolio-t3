@@ -22,18 +22,18 @@
 
 
 *{
-    cursor: url(../app/src/1Xpng.png), auto;
+    cursor: url(https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/app/src/1xpng.png?raw=true), auto;
 }
 .custom-cursor:link {
-  cursor: url(../app/src/1Xpng.png), auto;
+  cursor: url(https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/app/src/1xpng.png?raw=true), auto;
 }
 
 .custom-cursor:hover {
-  cursor: url(../app/src/1Xpng.png), auto;
+  cursor: url(https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/app/src/1xpng.png?raw=true), auto;
 }
 
 .custom-cursor:active {
-  cursor: url(../app/src/1Xpng.png), auto;
+  cursor: url(https://github.com/danielnaryshev/onex-portfolio-t3/blob/main/app/src/1xpng.png?raw=true), auto;
 }
 
 .h1word{
