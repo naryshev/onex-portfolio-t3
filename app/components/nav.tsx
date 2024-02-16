@@ -64,8 +64,8 @@ export const Navigation: React.FC = () => {
 					dragConstraints={{
 						top: 0,
 						left: 0,
-						right: 250,
-						bottom: 500,}}
+						right: 0,
+						bottom: 0,}}
 					whileTap={{ cursor: "grabbing" }}>
 					<div className="flex justify-between items-center space-x-4 mt-4">
 						
