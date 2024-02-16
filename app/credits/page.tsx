@@ -14,7 +14,7 @@ export const revalidate = 60;
 export default async function ProjectsPage() {
 	const views = (
 		await redis.mget<number[]>(
-			...allProjects.map((p) => ["pageviews", "credits", p.slug].join(":")),
+			...allProjects.map((p) => ["pageviews", "projects", p.slug].join(":")),
 		)
 	).reduce((acc, v, i) => {
 		acc[allProjects[i].slug] = v ?? 0;
