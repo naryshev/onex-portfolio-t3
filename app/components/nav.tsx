@@ -39,19 +39,38 @@ export const Navigation: React.FC = () => {
 			>
 				
 				<div className="flex flex-row-reverse items-center justify-between p-4 md:p-6 mx-auto w-full">
+				
 					<div className="flex justify-between space-x-4 mr-2 ">
+					<motion.div drag
+					whileHover={{ scale: 1.2 }}
+					dragConstraints={{
+						top: 0,
+						left: 0,
+						right: 0,
+						bottom: 0,}}
+					whileTap={{ cursor: "grabbing" }}>
 						<Link
 							href="/credits"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Credits
 						</Link>
+						</motion.div>
+						<motion.div drag
+					whileHover={{ scale: 1.2 }}
+					dragConstraints={{
+						top: 0,
+						left: 0,
+						right: 0,
+						bottom: 0,}}
+					whileTap={{ cursor: "grabbing" }}>
 						<Link
 							href="/booking"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Booking
 						</Link>
+						</motion.div>	
 						{/* <Link
 							href="/about"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
@@ -59,6 +78,7 @@ export const Navigation: React.FC = () => {
 							About
 						</Link> */}
 					</div>
+					
 					<motion.div drag
 					whileHover={{ scale: 1.2 }}
 					dragConstraints={{
