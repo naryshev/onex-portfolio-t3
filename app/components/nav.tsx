@@ -3,6 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import Modal from './Modal';
+import { motion } from "framer-motion";
 
 export const Navigation: React.FC = () => {
   const ref = useRef<HTMLElement>(null);
@@ -58,7 +59,7 @@ export const Navigation: React.FC = () => {
 							About
 						</Link> */}
 					</div>
-					
+					<motion.div drag>
 					<div className="flex justify-between items-center space-x-4 mt-4">
 						
 						{/* <Link
@@ -67,11 +68,13 @@ export const Navigation: React.FC = () => {
 						>
 							<ArrowLeft className="w-6 h-6 " />
 						</Link> */}
+						
 						<Link
 							href="/"
 							className="h2word"
 						>
-							<span  className="hover:text-fuchsia-300 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>
+					
+							<span  className="hover:text-fuchsia-400 duration-500 text-fuchsia-500 text-5xl mt-10 ml-4 ">1X</span>
 
 							{/* onClick={handleOpenModal}
 							Add this back for modal */}
@@ -80,7 +83,7 @@ export const Navigation: React.FC = () => {
 						
 						
 					</div>
-					
+					</motion.div>
 				</div>
 
 			</div>

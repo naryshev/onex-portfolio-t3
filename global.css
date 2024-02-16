@@ -50,6 +50,6 @@
   font-family: 'dap';
 }
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
   display: none; /* display of the scrollbar */
 }

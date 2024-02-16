@@ -29,7 +29,7 @@ export default function Home() {
 					))} */}
 				</ul>
 			</nav>
-			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={150}
@@ -44,12 +44,12 @@ export default function Home() {
 						right: 50,
 						bottom: 250,}}
 					>
-						<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-300 ease-in-out duration-400" href={"/credits"}>1X</Link>
+						<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-400 ease-in-out duration-50 animate-spin" href={"/credits"}>1X</Link>
 					</motion.div>
 						
 				</h1>
 
-			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
 					{/* Audio Engineering | Production */}
