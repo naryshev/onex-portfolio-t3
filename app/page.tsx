@@ -43,6 +43,7 @@ export default function Home() {
 						left: -50,
 						right: 50,
 						bottom: 250,}}
+						whileTap={{ cursor: "grabbing" }}
 					>
 						<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-400 ease-in-out duration-50 animate-spin" href={"/credits"}>1X</Link>
 					</motion.div>

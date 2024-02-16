@@ -59,7 +59,14 @@ export const Navigation: React.FC = () => {
 							About
 						</Link> */}
 					</div>
-					<motion.div drag>
+					<motion.div drag
+					whileHover={{ scale: 1.2 }}
+					dragConstraints={{
+						top: -10,
+						left: -10,
+						right: 290,
+						bottom: 680,}}
+					whileTap={{ cursor: "grabbing" }}>
 					<div className="flex justify-between items-center space-x-4 mt-4">
 						
 						{/* <Link
