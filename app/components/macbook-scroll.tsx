@@ -326,39 +326,40 @@ export const Keypad = () => {
           tab
         </KBtn>
         <KBtn>
-          <span className="block">Q</span>
+          <span className="block">Й</span>
         </KBtn>
 
         <KBtn>
-          <span className="block">W</span>
+          <span className="block">Ц</span>
         </KBtn>
         <KBtn>
-          <span className="block">E</span>
+          <span className="block">У</span>
         </KBtn>
         <KBtn>
-          <span className="block">R</span>
+          <span className="block">К</span>
         </KBtn>
         <KBtn>
-          <span className="block">T</span>
+          <span className="block">Е</span>
         </KBtn>
         <KBtn>
-          <span className="block">Y</span>
+          <span className="block">Н</span>
         </KBtn>
         <KBtn>
-          <span className="block">U</span>
+          <span className="block">Г</span>
         </KBtn>
         <KBtn>
-          <span className="block">I</span>
+          <span className="block">Ш</span>
         </KBtn>
         <KBtn>
-          <span className="block">O</span>
+          <span className="block">Щ</span>
         </KBtn>
         <KBtn>
-          <span className="block">P</span>
+          <span className="block">З</span>
         </KBtn>
         <KBtn>
           <span className="block">{`{`}</span>
           <span className="block">{`[`}</span>
+          <span className="block">X</span>
         </KBtn>
         <KBtn>
           <span className="block">{`}`}</span>
@@ -379,32 +380,32 @@ export const Keypad = () => {
           caps lock
         </KBtn>
         <KBtn>
-          <span className="block">A</span>
+          <span className="block">Ф</span>
         </KBtn>
 
         <KBtn>
-          <span className="block">S</span>
+          <span className="block">Ы</span>
         </KBtn>
         <KBtn>
-          <span className="block">D</span>
+          <span className="block">В</span>
         </KBtn>
         <KBtn>
-          <span className="block">F</span>
+          <span className="block">А</span>
         </KBtn>
         <KBtn>
-          <span className="block">G</span>
+          <span className="block">П</span>
         </KBtn>
         <KBtn>
-          <span className="block">H</span>
+          <span className="block">Р</span>
         </KBtn>
         <KBtn>
-          <span className="block">J</span>
+          <span className="block">О</span>
         </KBtn>
         <KBtn>
-          <span className="block">K</span>
+          <span className="block">Л</span>
         </KBtn>
         <KBtn>
-          <span className="block">L</span>
+          <span className="block">Д</span>
         </KBtn>
         <KBtn>
           <span className="block">{`:`}</span>
@@ -431,25 +432,25 @@ export const Keypad = () => {
           shift
         </KBtn>
         <KBtn>
-          <span className="block">Z</span>
+          <span className="block">Я</span>
         </KBtn>
         <KBtn>
-          <span className="block">X</span>
+          <span className="block">Ч</span>
         </KBtn>
         <KBtn>
-          <span className="block">C</span>
+          <span className="block">С</span>
         </KBtn>
         <KBtn>
-          <span className="block">V</span>
+          <span className="block">М</span>
         </KBtn>
         <KBtn>
-          <span className="block">B</span>
+          <span className="block">И</span>
         </KBtn>
         <KBtn>
-          <span className="block">N</span>
+          <span className="block">Т</span>
         </KBtn>
         <KBtn>
-          <span className="block">M</span>
+          <span className="block">Ь</span>
         </KBtn>
         <KBtn>
           <span className="block">{`<`}</span>
