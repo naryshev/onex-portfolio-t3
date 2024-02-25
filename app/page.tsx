@@ -4,6 +4,7 @@ import React from "react";
 import Particles from "./components/particles";
 import {Footer} from "./components/footer";
 import {motion} from "framer-motion"
+import { MacbookScroll } from "./components/macbook-scroll";
 
 const navigation = [
 	// { name: "Credits", href: "/credits" },
@@ -47,24 +48,26 @@ export default function Home() {
 					>
 						<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-400 ease-in-out duration-50 animate-spin" href={"/credits"}>1X</Link>
 					</motion.div>
-						
 				</h1>
-
+			
+				<MacbookScroll src=""></MacbookScroll>			
+	
 			{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
 					{/* Audio Engineering | Production */}
 					
 
-					Los Angeles
+					{/* Los Angeles */}
 
 				</h2>
-			
+						
 			</div>
 			
 			{/* <nav className="my-16 animate-fade-in text-xs">
 				<Footer/>
 			</nav> */}
+			
 		</div>
 		
 		
