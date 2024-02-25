@@ -45,7 +45,7 @@ export const MacbookScroll = ({
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (window && window.innerWidth < 768) {
+    if (window && window.innerWidth < 1068) {
       setIsMobile(true);
     }
   }, []);
@@ -53,29 +53,30 @@ export const MacbookScroll = ({
   const scaleX = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [1.2, isMobile ? 1 : 1.5]
+    [1.2, isMobile ? 1.4 : 1.8]
   );
   const scaleY = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [0.6, isMobile ? 1 : 1.5]
+    [0.6, isMobile ? 1.2 : 1.6]
   );
-  const translate = useTransform(scrollYProgress, [0, 1], [0, 1500]);
-  const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
-  const textTransform = useTransform(scrollYProgress, [0, 0.3], [0, 100]);
+  const translate = useTransform(scrollYProgress, [0, 1], [0, 1200]);
+  const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.4], [-28, -28, 0]);
+  const textTransform = useTransform(scrollYProgress, [0, 0.4], [0, 80]);
   const textOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
+  const imageOpacity = useTransform(scrollYProgress, [0.5, 1], [1, 0]);
 
   return (
     <div
       ref={ref}
-      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-20 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
+      className="min-h-[150vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] scale-[0.59] transform md:scale-100 py-20  sm:scale-[0.86]"
     >
       <motion.h2
         style={{
           translateY: textTransform,
           opacity: textOpacity,
         }}
-        className="dark:text-white text-neutral-800 text-3xl font-bold mb-20 text-center"
+        className="dark:text-white text-neutral-800 text-3xl font-bold mb-20 text-center "
       >
         {title || (
           <span>
@@ -90,6 +91,7 @@ export const MacbookScroll = ({
         scaleY={scaleY}
         rotate={rotate}
         translate={translate}
+        opacity={imageOpacity}
       />
       {/* Base area */}
       <div className="h-[22rem] w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
@@ -124,12 +126,14 @@ export const Lid = ({
   scaleY,
   rotate,
   translate,
+  opacity,
   src,
 }: {
   scaleX: MotionValue<number>;
   scaleY: MotionValue<number>;
   rotate: MotionValue<number>;
   translate: MotionValue<number>;
+  opacity: MotionValue<number>;
   src?: string;
 }) => {
   return (
@@ -146,10 +150,9 @@ export const Lid = ({
           style={{
             boxShadow: "0px 2px 0px 2px var(--neutral-900) inset",
           }}
-          className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
-        >
+          className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center">
           <span className="text-white">
-            <AceternityLogo />
+            
           </span>
         </div>
       </div>
@@ -159,6 +162,7 @@ export const Lid = ({
           scaleY: scaleY,
           rotateX: rotate,
           translateY: translate,
+          opacity: opacity,
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
@@ -641,27 +645,6 @@ export const OptionKey = ({ className }: { className: string }) => {
         width="32"
         height="32"
         stroke="none"
-      />
-    </svg>
-  );
-};
-
-const AceternityLogo = () => {
-  return (
-    <svg
-      width="66"
-      height="65"
-      viewBox="0 0 66 65"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-3 w-3 text-white"
-    >
-      <path
-        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-        stroke="currentColor"
-        strokeWidth="15"
-        strokeMiterlimit="3.86874"
-        strokeLinecap="round"
       />
     </svg>
   );

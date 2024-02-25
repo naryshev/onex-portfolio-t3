@@ -33,12 +33,12 @@ export const Navigation: React.FC = () => {
 			<div
 				className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-200 border-b  ${
 					isIntersecting
-						? "bg-zinc-900/0 border-transparent"
+						? "bg-zinc-900/200 border-zinc-900"
 						: "bg-zinc-900/500  border-zinc-800 "
 				}`}
 			>
 				
-				<div className="flex flex-row-reverse items-center justify-between p-4 md:p-6 mx-auto w-full">
+				<div className="flex flex-row-reverse items-center justify-between p-2 md:p-6 mx-auto w-full">
 				
 					<div className="flex justify-between space-x-4 mr-2 ">
 					<motion.div drag
@@ -87,7 +87,7 @@ export const Navigation: React.FC = () => {
 						right: 0,
 						bottom: 0,}}
 					whileTap={{ cursor: "grabbing" }}>
-					<div className="flex justify-between items-center space-x-4 mt-4">
+					<div className="flex justify-between items-center space-x-4 pt-4">
 						
 						{/* <Link
 							href="/"
