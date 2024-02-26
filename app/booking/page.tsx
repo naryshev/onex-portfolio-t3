@@ -73,15 +73,15 @@ export default function Example() {
 	);
 }
 
-const MyComponent = () => (
-  <Cal
-    calLink="xaniel"
-    config={{
-      name: "John Doe",
-      email: "johndoe@gmail.com",
-      notes: "Test Meeting",
-      guests: ["janedoe@gmail.com"],
-      theme: "dark",
-    }}
-  />
-);
+// const MyComponent = () => (
+//   <Cal
+//     calLink="xaniel"
+//     config={{
+//       name: "John Doe",
+//       email: "johndoe@gmail.com",
+//       notes: "Test Meeting",
+//       guests: ["janedoe@gmail.com"],
+//       theme: "dark",
+//     }}
+//   />
+// );
