@@ -53,7 +53,7 @@ export const MacbookScroll = ({
   const scaleX = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [1.2, isMobile ? 1.4 : 1.8]
+    [1.2, isMobile ? 1.4 : 1.]
   );
   const scaleY = useTransform(
     scrollYProgress,
@@ -69,8 +69,9 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="min-h-[150vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] scale-[0.59] transform md:scale-100 py-20  sm:scale-[0.86]"
-    >
+      className={`min-h-[150vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] ${
+        isMobile ? "scale-75 py-10" : "scale-100 py-20"
+      } sm:scale-[0.86]`}    >
       <motion.h2
         style={{
           translateY: textTransform,
