@@ -5,16 +5,16 @@ import { Navigation } from "../components/nav";
 import Cal from "@calcom/embed-react";
 import { WavyBackground } from "../components/wavy-background";
 
-import { Resend } from 'resend';
+// import { Resend } from 'resend';
 
-const resend = new Resend('re_TRGeY3BU_FpW6J7M7F8Xzxvi6ZcvWvuTC');
+// const resend = new Resend('re_TRGeY3BU_FpW6J7M7F8Xzxvi6ZcvWvuTC');
 
-resend.emails.send({
-  from: 'support@onex.zip',
-  to: '',
-  subject: 'Hello World',
-  html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
-});
+// resend.emails.send({
+//   from: 'support@onex.zip',
+//   to: 'daniel.naryshev@gmail.com',
+//   subject: 'Hello World',
+//   html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
+// });
 
 export default function Example() {
 	return (
