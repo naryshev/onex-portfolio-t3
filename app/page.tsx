@@ -27,7 +27,7 @@ export default function Home() {
 	return (
 		<div className="animate-fade-in">
 			<div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black ">
-				<div className="mt-16 sm:mt-32">
+				<div className="mt-16 ">
 					
 					
 					{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
