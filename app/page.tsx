@@ -23,6 +23,7 @@ export default function Home() {
 
 		setIsMobile(true);
 		document.body.style.overflow = "hidden";
+
 		return () => {
 			document.body.style.overflow = "scroll"
 		};
@@ -38,7 +39,7 @@ export default function Home() {
 					{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
 					
 
-						<h1 id="ONEX RECORDS" className="animate-[bounce_ease-in-out_3s_infinite] h1word z-10  text-transparent duration-300 bg-white cursor-default align-middle bg-clip-text pt-7 mt-20 ">
+						<h1 id="ONEX RECORDS" className="animate-[bounce_ease-in-out_3s_infinite] h1word z-10  text-transparent duration-300 bg-white  align-middle bg-clip-text pt-7 mt-20 ">
 							<motion.div drag
 							whileHover={{ scale: 1.2 }}
 							dragConstraints={{
@@ -48,7 +49,7 @@ export default function Home() {
 								bottom: 250,}}
 								whileTap={{ cursor: "grabbing" }}
 							>
-								<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-400 ease-in-out duration-50 animate-spin" href={"/credits"}>1X</Link>
+								<Link className="text-9xl text-fuchsia-500 hover:text-fuchsia-400 ease-in-out duration-50 cursor-pointer" href={"/credits"}>1X</Link>
 							</motion.div>
 						</h1>
 					
@@ -59,20 +60,22 @@ export default function Home() {
 				</div>
 					
 					{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
-				<div className="my-8 text-center ">
+				
+					
+				{/* <div id="footer" className=" absolute my-8 text-center bottom-0 ">
 					<h2 className="text-xs text-zinc-500 ">
-						{/* Audio Engineering | Production */}
+						Audio Engineering | Production
+						<br />
+						ONEX Los Angeles © 2024
 						
 
 						
 
 					</h2>
 							
-				</div>
-					
-					
+				</div>		 */}
 			
-					
+				
 			</div>
 			
 		</div>

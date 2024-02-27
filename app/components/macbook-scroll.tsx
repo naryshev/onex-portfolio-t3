@@ -66,7 +66,7 @@ export const MacbookScroll = ({
     [0, 0.3],
     [0.6, isMobile ? 1.05 : 1.6]
   );
-  const translate = useTransform(scrollYProgress, [0, 1], [0, 1200]);
+  const translate = useTransform(scrollYProgress, [0, 1], [0, 1300]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.4], [-28, -28, 0]);
   const textTransform = useTransform(scrollYProgress, [0, 0.4], [0, 80]);
   const textOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
@@ -75,7 +75,7 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className={`min-h-[150vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] 
+      className={`min-h-[160vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] 
       ${
         isMobile ? "scale-[0.55]" : "scale-[0.90] py-10"
       } `}    >
@@ -174,7 +174,7 @@ export const Lid = ({
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
-        className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2 z-20"
+        className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2 "
       >
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <Image

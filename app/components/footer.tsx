@@ -22,11 +22,11 @@ export const Footer: React.FC = () => {
 				className={`fixed inset-x-0 bottom-0 z-50 backdrop-blur  duration-200 border-b sm:  ${
 					isIntersecting
 						? "bg-zinc-900/0 border-transparent"
-						: "bg-zinc-900/500  border-zinc-800 "
+						: "bg-zinc-900/500  border-zinc-200 "
 				}`}
 			>
-				<div className="mx-auto w-full max-w-screen-xl sm:pb-0 px-6 pb- sm:px-2 ">
-                    <hr className="border-gray-200 mx-auto dark:border-gray-700 sm:mb-2 sm:mx-2" />
+				<div className="mx-auto w-full max-w-screen-xl sm:pb-0 px-6 sm:px-2 ">
+                    <hr className="border-slate-400  dark:border-gray-700 sm:mb-2 sm:mx-2" />
                     <div className="flex items-center justify-between my-2">
                         <div className="flex mt-4 space-x-6 justify-center mt-0 pb-2 ">
                             <a href="https://www.instagram.com/onex.zip" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
                             </a> */}
                         </div>
 
-                        <span className="text-xs text-zinc-500 text-right dark:text-zinc-400">© 2024 <a href="https://onex.zip/" className="hover:underline">ONEX Records™</a>. <a className="inline-block">All Rights Reserved.</a></span>
+                        <span className="text-xs text-zinc-500 text-right dark:text-zinc-400">© 2024 <a href="https://onex.zip/" className="hover:underline">ONEX™</a>. <a className="inline-block">All Rights Reserved.</a></span>
 
                     </div>
                 </div>
