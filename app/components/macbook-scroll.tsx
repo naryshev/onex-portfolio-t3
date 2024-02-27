@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
+import { MotionValue, motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { cn } from "@/util/cn";
 import {
   IconBrightnessDown,
@@ -42,6 +42,12 @@ export const MacbookScroll = ({
     offset: ["start start", "end start"],
   });
 
+  const smoothScrollYProgress = useSpring(scrollYProgress, {
+    stiffness: 200, // Adjust stiffness for more or less spring
+    damping: 10, // Adjust damping for more or less damping
+    mass: 1, // Adjust mass for the effect of inertia
+  });
+
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -51,12 +57,12 @@ export const MacbookScroll = ({
   }, []);
 
   const scaleX = useTransform(
-    scrollYProgress,
+    smoothScrollYProgress,
     [0, 0.3],
     [1.2, isMobile ? 1.25: 1.8]
   );
   const scaleY = useTransform(
-    scrollYProgress,
+    smoothScrollYProgress,
     [0, 0.3],
     [0.6, isMobile ? 1.05 : 1.6]
   );
