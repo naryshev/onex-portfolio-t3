@@ -53,12 +53,12 @@ export const MacbookScroll = ({
   const scaleX = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [1.2, isMobile ? 1.4 : 1.]
+    [1.2, isMobile ? 1.25: 1.8]
   );
   const scaleY = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [0.6, isMobile ? 1.2 : 1.6]
+    [0.6, isMobile ? 1.05 : 1.6]
   );
   const translate = useTransform(scrollYProgress, [0, 1], [0, 1200]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.4], [-28, -28, 0]);
@@ -69,9 +69,10 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className={`min-h-[150vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] ${
-        isMobile ? "scale-75 py-10" : "scale-100 py-20"
-      } sm:scale-[0.86]`}    >
+      className={`min-h-[150vh] flex flex-col items-center py-0 justify-start flex-shrink-1 [perspective:800px] 
+      ${
+        isMobile ? "scale-[0.55]" : "scale-[0.90] py-10"
+      } `}    >
       <motion.h2
         style={{
           translateY: textTransform,
@@ -80,8 +81,8 @@ export const MacbookScroll = ({
         className="dark:text-white text-neutral-800 text-3xl font-bold mb-20 text-center "
       >
         {title || (
-          <span>
-            We make recording simple. <br /> No kidding.
+          <span className="text-4xl">
+            We make recording simple.
           </span>
         )}
       </motion.h2>

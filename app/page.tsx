@@ -40,7 +40,7 @@ export default function Home() {
 					
 								
 				</div>	
-				<MacbookScroll src="/src/ss.png"></MacbookScroll>			
+				<MacbookScroll src="/src/ss.png" />		
 					{/* <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" /> */}
 				<div className="my-8 text-center ">
 					<h2 className="text-xs text-zinc-500 ">
