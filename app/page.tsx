@@ -20,7 +20,12 @@ export default function Home() {
 
 	useEffect(() => {
 	if (window && window.innerWidth < 1068) {
+
 		setIsMobile(true);
+		document.body.style.overflow = "hidden";
+		return () => {
+			document.body.style.overflow = "scroll"
+		};
 	}
 	}, []);
 
