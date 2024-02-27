@@ -65,7 +65,7 @@ export const Navigation: React.FC = () => {
 						bottom: 0,}}
 					whileTap={{ cursor: "grabbing" }}>
 						<Link
-							href="/booking"
+							href="/newsletter"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Newsletter
