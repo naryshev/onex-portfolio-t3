@@ -21,19 +21,19 @@ export default function Example() {
     <div >
     <div>
       <WavyBackground  speed="slow" backgroundFill="#171719" blur={10} waveWidth={90}>
-        <div className="h-[40rem] w-full rounded-md bg-transparent-950 relative flex flex-col items-center justify-center antialiased">
+        <div className="w-full rounded-md bg-transparent-950 relative flex flex-col items-center justify-center antialiased">
           <div className="max-w-2xl mx-auto p-4">
-            <h1 className="relative z-10 text-3xl sm:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-200  text-center font-bold">
-              Join our Newsletter
+            <h1 className="relative z-10 p-4 text-3xl sm:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-200  text-center font-bold">
+              {/* Join our Newsletter */} Coming Soon
             </h1>
             <p></p>
             <p className="text-neutral-100 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
               
-              The best engineering recording service in the LA area.
+              {/* The best engineering recording service in the LA area. */} 
               
             </p>
             
-            <form action="# ">
+            {/* <form action="# ">
               <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className="relative w-full">
                       <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
@@ -47,7 +47,7 @@ export default function Example() {
                   </div>
               </div>
               <div className="mx-auto max-w-screen-sm text-xs text-center text-slate-500 newsletter-form-footer dark:text-gray-300">We care about the protection of your data. <a href="#" className="font-medium text-primary-600 dark:text-primary-500 hover:underline">Read our Privacy Policy</a>.</div>
-          </form>
+          </form> */}
           </div>
           
         </div>

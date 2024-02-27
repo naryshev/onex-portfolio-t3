@@ -68,7 +68,7 @@ export const Navigation: React.FC = () => {
 							href="/booking"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Booking
+							Newsletter
 						</Link>
 						</motion.div>	
 						{/* <Link
