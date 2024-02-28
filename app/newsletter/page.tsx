@@ -55,7 +55,7 @@ export default function Example() {
             <form onSubmit={handleSubmit} >
                 <div className="">
                     <label htmlFor="name" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
-                    <input className="animate-pulse p-3 mb-2 w-full text-sm text-slate-950 bg-transparent border border-gray-300 rounded sm:rounded-none sm:rounded-lg focus:ring-primary-500 focus:border-primary-900 dark:bg-transparent-700 dark:border-gray-300 dark:placeholder-gray-100 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="First Name" type="name" id="name" value={name}  onChange={(e) => setName(e.target.value)} />
+                    <input className="animate-pulse p-3 mb-2 w-full text-sm text-slate-950 bg-transparent border border-gray-300 rounded sm:rounded-lg focus:ring-primary-500 focus:border-primary-900 dark:bg-transparent-700 dark:border-gray-300 dark:placeholder-gray-100 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="First Name" type="name" id="name" value={name}  onChange={(e) => setName(e.target.value)} />
                   </div>
               <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0 ">
                   <div className="relative w-full">
