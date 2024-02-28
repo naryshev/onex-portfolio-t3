@@ -30,9 +30,9 @@ export const EmailTemplate = ({
     <Body style={main}>
       <Container style={container}>
         <Img
-            src={`/public/src/1xLogo.png`}
+            src={`https://raw.githubusercontent.com/danielnaryshev/onex-portfolio-t3/main/public/src/1xLogo.png`}
             width="170"
-            height="50"
+            height="170"
             alt="ONEX"
             style={logo}
           />
