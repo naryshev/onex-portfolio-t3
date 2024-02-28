@@ -69,7 +69,7 @@ export default function Example() {
                       {/* <button type="submit" className="hover:animate-pulse py-3 px-5 w-full text-sm font-medium text-center text-slate-50 border rounded-l-lg cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button> */}
                       <button
                         type="submit"
-                        className="hover:animate-pulse py-3 px-5 w-full text-sm font-medium text-center text-slate-50 border rounded-lg cursor-pointer bg-primary-700 border-primary-600 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                        className="hover:animate-pulse py-3 px-5 w-full text-sm font-medium text-center text-slate-50 border rounded-lg cursor-pointer bg-primary-700 border-primary-600 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                     >
                         {loading ? (
                             <div

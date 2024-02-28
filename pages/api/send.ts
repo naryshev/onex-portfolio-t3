@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
       await resend.emails.send({
-        from: "ONEX <onboarding@onex.zip>",
+        from: "ONEX <welcome@onex.zip>",
         to: [email],
         subject: "Newsletter Confirmation",
         html: "",
