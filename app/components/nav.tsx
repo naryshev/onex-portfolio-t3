@@ -4,6 +4,8 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import Modal from './Modal';
 import { motion } from "framer-motion";
+import { Dropdown } from "flowbite-react";
+
 
 export const Navigation: React.FC = () => {
   const ref = useRef<HTMLElement>(null);
@@ -42,7 +44,7 @@ export const Navigation: React.FC = () => {
 				
 					<div className="flex justify-between space-x-4 mr-2 ">
 					<motion.div drag
-					whileHover={{ scale: 1.2 }}
+					whileHover={{ scale: 0.9 }}
 					dragConstraints={{
 						top: 0,
 						left: 0,
@@ -57,19 +59,30 @@ export const Navigation: React.FC = () => {
 						</Link>
 						</motion.div>
 						<motion.div drag
-					whileHover={{ scale: 1.2 }}
+					// whileHover={{ scale: 0.9 }}
 					dragConstraints={{
 						top: 0,
 						left: 0,
 						right: 0,
 						bottom: 0,}}
 					whileTap={{ cursor: "grabbing" }}>
-						<Link
-							href="/newsletter"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						{/* <button id="dropdownButton" data-dropdown-toggle="dropdown" data-dropdown-trigger="click" className="duration-200 text-zinc-400 hover:text-zinc-100" type="button">Newsletter */}
+						<Dropdown label="" renderTrigger={() => <span className="duration-200 text-zinc-400 hover:text-zinc-100">Newsletter</span>}>
+							<Dropdown.Item as="a" href="#" target="_blank" className="duration-200 text-zinc-400 hover:text-zinc-100 bg-transparent">
+							Coming Soon
+							</Dropdown.Item>
+							
+						</Dropdown>
+						
+						{/* <Link
+							href=""
+							
+							className="duration-200 text-zinc-400 hover:text-zinc-100" 
 						>
 							Newsletter
-						</Link>
+						</Link> */}
+						{/* </button> */}
+						
 						</motion.div>	
 						{/* <Link
 							href="/about"
@@ -115,6 +128,7 @@ export const Navigation: React.FC = () => {
 
 			</div>
 			{/* {isModalOpen && <Modal onClose={handleCloseModal} />} */}
+			
 		</header>
 		
 	);

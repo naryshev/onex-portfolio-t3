@@ -10,6 +10,7 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx}",
 		"./mdx-components.tsx",
 		"content/**/*.mdx",
+		"./node_modules/flowbite-react/lib/**/*.js",
 	],
 
 	theme: {
@@ -157,6 +158,7 @@ module.exports = {
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
 		require('@tailwindcss/aspect-ratio'),
+		require('flowbite/plugin'),
 		addVariablesForColors,
 	],
 };
