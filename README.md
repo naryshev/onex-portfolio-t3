@@ -2,7 +2,8 @@
     <a href="https://onex.zip"><h1 align="center">1X Records</h1></a>
 
 Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
-    _In development_
+   
+_In development_
 </div>
 
 
