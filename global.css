@@ -18,8 +18,59 @@
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);
   }
 } 
+/* In your CSS file */
+.react-modern-audio-player .rhap_container .rhap_waveform-container {
+  background-color: #ff0000 !important; /* Change this color to your desired waveform color */
+}
+
+#rm-audio-player-track-duration{
+  font-weight: bold;
+}
+
+#rm-audio-player {
+  --rm-audio-player-interface-container: #1e1e1e;
+  --rm-audio-player-volume-background: #333;
+  --rm-audio-player-volume-panel-background: #444;
+  --rm-audio-player-volume-panel-border: #555;
+  --rm-audio-player-volume-thumb: #888;
+  --rm-audio-player-volume-fill: #8c169e;
+  --rm-audio-player-volume-track: #666;
+  --rm-audio-player-track-current-time: #d946ef;
+  --rm-audio-player-track-duration: #d946ef;
+  --rm-audio-player-progress-bar: #d946ef;
+  --rm-audio-player-progress-bar-background: #777;
+  --rm-audio-player-waveform-cursor: #ccc;
+  --rm-audio-player-waveform-background: #d946ef !important;
+  --rm-audio-player-waveform-bar: #d946ef!important;
+  --rm-audio-player-sortable-list: #333;
+  --rm-audio-player-sortable-list-button-active: #d946ef;
+  --rm-audio-player-selected-list-item-background: #444;
+}
 
 
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --rm-audio-player-interface-container: #1e1e1e !important;
+    --rm-audio-player-volume-background: #333 !important;
+    --rm-audio-player-volume-panel-background: #444 !important;
+    --rm-audio-player-volume-panel-border: #555 !important;
+    --rm-audio-player-volume-thumb: #888 !important;
+    --rm-audio-player-volume-fill: #8c169e !important;
+    --rm-audio-player-volume-track: #666 !important;
+    --rm-audio-player-track-current-time: #d946ef;
+    --rm-audio-player-track-duration: #aaa !important;
+    --rm-audio-player-progress-bar: #d946ef !important;
+    --rm-audio-player-progress-bar-background: #777!important;
+    --rm-audio-player-waveform-cursor: #ccc !important;
+    --rm-audio-player-waveform-background: #d946ef !important;
+    --rm-audio-player-waveform-bar: #e545fd;
+    --rm-audio-player-sortable-list: #333;
+    --rm-audio-player-sortable-list-button-active: #0072F5;
+    --rm-audio-player-selected-list-item-background: #444;
+  }
+}
 
 *{
     cursor: url("public/src/1xpng.png"), auto;
@@ -53,3 +104,4 @@
 html::-webkit-scrollbar {
   display: none; /* display of the scrollbar */
 }
+

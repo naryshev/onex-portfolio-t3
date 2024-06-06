@@ -1,0 +1,33 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    width: "100%";
+    height: calc(100vh - 16px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  
+  .editor {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .editor-section {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .player-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  

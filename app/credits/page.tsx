@@ -135,7 +135,7 @@ export default async function ProjectsPage() {
 					</div>
 				</div>
 			</div>
-			<Footer/>
+			{/* <Footer/> */}
 		</div>
 		
 		
