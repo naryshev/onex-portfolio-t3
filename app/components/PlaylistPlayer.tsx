@@ -28,10 +28,9 @@ const playList = [
 ];
 
 const PlaylistPlayer = () => {
-    const waveformColor = "#ff0000";
     return (
     
-      <div className="container">
+      <div className="">
         <AudioPlayer
           playList={playList}
           audioInitialState={{
@@ -47,7 +46,6 @@ const PlaylistPlayer = () => {
                 trackTimeCurrent: 'row2-3',
                 progress: 'row2-5',
                 trackTimeDuration: 'row2-6',
-                
                 repeatType: 'row1-7',
                 volume: 'row1-8',
               },
