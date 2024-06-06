@@ -2,8 +2,8 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { MdPlayArrow, MdPause } from 'react-icons/md';
-// import AudioPlayer from '../AudioPlayer';
-// import { songs } from '../songs';
+import AudioPlayer from '../AudioPlayer';
+import { songs } from '../songs';
 
 
 interface ModalProps {
